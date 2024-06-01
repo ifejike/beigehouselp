@@ -1,0 +1,44 @@
+$font-size-lg: 70px;
+$font-size-sm: 50px;
+
+
+body {
+    background-color: beige;
+}
+h1 {
+    font-size: $font-size-lg;
+    @media (max-width: 992px) {
+        font-size: $font-size-sm;
+    }
+
+}
+
+hr {
+    border: 1px solid;
+    border-color: #cc9767;
+}
+.product {
+    background-color: beige;
+    position: relative;
+    border: 1px solid !important;
+    border-top: 0 !important;
+    border-left-color: #cc9767 !important;
+    border-right-color: #cc9767 !important;
+    border-bottom-color: #cc9767 !important;
+    border-radius: 50% 50% 0 0;
+    position: relative;
+    width: 300px;
+    
+}
+.product-img {
+    border-radius: 50% 50% 0 0;
+    position: absolute;
+    position: relative;
+}
+button {
+    background-color: #cc9767;
+    width: 150px;
+
+}
+
+ 
